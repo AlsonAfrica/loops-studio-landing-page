@@ -1,0 +1,254 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    /* border-style: dotted; */
+}
+.hero{
+  background-image: url("./images/desktop/image-hero.jpg");
+  background-size:cover;
+  height: 690px;
+  width: 100%;
+
+}
+.hero img{
+  width:100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 80px;
+  }
+.nav a{
+    color:white;
+    margin-left:50px;
+    position:relative;
+    left:30em;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav p {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-left:100px;
+    color:white;
+  }
+  .intro {
+    display:flex;
+    border:solid white;
+    display: flex;
+    flex-direction: column;
+    font-size:160px;
+    margin-top:110px;
+    margin-left:110px;
+    padding:0px;
+    width:750px;
+  }
+  .intro p{
+    font-size:90px;
+    padding-left:30px;
+    padding-top:20px;
+  }
+
+  .intro p{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+ }
+ 
+.card1{
+  margin-top: 320px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  background-color: #ffffff;
+  width:700px;
+  height:500px;
+  padding-top:170px;
+  padding-left: 70px;
+  position:absolute;
+  left:675px;
+  z-index:20;
+}
+.card1 h2{
+  padding-bottom:30px;
+  font-size:60px ;
+}
+
+.card1 h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.card1 p{
+  padding-top:10px;
+}
+.container{
+  display: flex;
+}
+.container img{
+  margin-top:150px;
+  margin-left:110px;
+  display: block;
+  width: 100%;
+}
+.creations{
+  margin-top:350px;
+  margin-left:110px;
+  display: flex;
+  justify-content: space-between;
+}
+.creations a{
+  margin-right: 200px;
+  font-size: 30px;
+  text-decoration: none;
+  padding:20px;
+  border-style: solid;
+ 
+}
+.creations p {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20;
+  font-style: normal;
+}
+.creations p{
+  font-size:20px;
+}
+.creations h2{
+  font-size: 40px;
+}
+.creations h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+/* #border{
+  border-style: solid;
+  
+} */
+/* image-grid styling */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:150px;
+  margin-left:110px;
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.image-container {
+  position: relative;
+  width: 22%; 
+  box-sizing: border-box; 
+  padding: 15px; 
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#ffffff;
+  font-size:30px ;
+  padding: 10px; /* Optional: Adjust padding */
+  padding-top:350px;
+}
+.overlay-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+/* footer styling */
+.footer{
+  background-color: black;
+  margin-top:150px;
+  height:200px;
+
+}
+/* .socials{
+  color:#ffffff;
+  display: flex;
+  margin-left:110px;
+  padding-top: 50px;
+} */
+.socials{
+  display: flex;
+  padding-top: 28px;
+}
+.socials svg{
+  color:white;
+  margin-left:20px;
+  position:relative;
+  left:50em;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.socials p{
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  padding-left:90px;
+  color:white;
+
+}
+.socials p{
+  font-size: 30px;
+}
+.links{
+  justify-content: space-between;
+  padding-top: 28px;
+  padding-left:100px;
+}
+.links ul{
+  list-style-type: none;
+  display: flex;
+}
+.links a{
+  position:relative;
+  right:4em;
+  margin-left:50px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.signature{
+  display: flex;
+  padding-top: 28px;
+  justify-content:space-around;
+  color: #ffffff;
+  
+}
+.signature a{
+  color:#ffffff;
+  text-decoration: none;
+}
+
+/* .socials a{
+  color:white;
+  margin-left:50px;
+  position:relative;
+  left:30em;
+  font-size: 20px;
+  text-decoration: none;
+} */
+/* RESPONSIVE DESIGN */
+
+
